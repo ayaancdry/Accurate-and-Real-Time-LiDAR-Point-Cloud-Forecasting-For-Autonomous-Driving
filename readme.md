@@ -1,7 +1,10 @@
 # Accurate and Real-Time LiDAR Point Cloud Forecasting For Autonomous Driving
 
 ## 1. Clone the repository
-
+Clone this repository along with its submodules
+```
+git clone --recurse-submodules https://github.com/lighterbird/Accurate-and-Real-Time-LiDAR-Point-Cloud-Forecasting-For-Autonomous-Driving.git
+```
 
 ## 2. Setup the dependencies
 All the required dependencies are specified in the `environment_setup.yml` file.  
@@ -35,10 +38,14 @@ python run.py --dataset "" --processeddatapath "" --model ""
 3. `--model` can take values `"model1"` or `"model2"`
 
 ### 3. Evaluation
-The trained models for `model1` and `model2` for both the datasets are provided in the `checkpoints` folder.  
+Following are the links to the checkpoints of trained models:  
+```
+DRIVE LINKS TO BE INSERTED HERE
+```
 To evaluate a model on a dataset, run `run.py` with the following arguments  
 
 ```
+
 python run.py --test "" --dataset "" --processeddatapath "" --model "" 
 ```
 1. `--test` specifies the path to the trained model which is to be evaluated
