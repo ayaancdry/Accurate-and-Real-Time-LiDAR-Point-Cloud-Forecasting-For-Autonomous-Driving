@@ -38,10 +38,11 @@ python run.py --dataset "" --processeddatapath "" --model ""
 3. `--model` can take values `"model1"` or `"model2"`
 
 ### 3. Evaluation
-Following are the links to the checkpoints of trained models:  
-```
-DRIVE LINKS TO BE INSERTED HERE
-```
+Following is the link to the trained checkpoints for both model1 and model2 on both kitti and nuscenes dataset:  
+
+[Link to Checkpoints](https://drive.google.com/drive/folders/1OCGuoMm5GHeAfnrWXcje90QQN0ZLtoqz?usp=drive_link)
+
+
 To evaluate a model on a dataset, run `run.py` with the following arguments  
 
 ```
